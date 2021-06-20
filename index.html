@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>LUCIA Web Site</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"&amp;gt>
+
+        <!-- FAVICON -->
+        <link rel="shortcut icon" href="images/IconoPagina.png">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/boostrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+        <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+        <link rel="stylesheet" type="text/css" href="css/WebSiteMain.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    </head>
+    <body data-page="no-scroll">
+
+        <!-- PAGE LOADING -->
+        <div class="loading">
+            <div class="fa fa-circle-o-notch fa-spin fa-3x fa-fw">
+                <object data="sr-only"></object>
+            </div>
+        </div>
+
+        <!-- SUB LOADERS -->
+        <div class="sub-loading"></div>
+        <div class="page-loading"></div>   
+        
+        <!-- HEADER -->
+        <header>
+            <div class="header">
+                <div class="header-logo">
+                    <a href="index.html" data-type="page-load">PFC 2021</a>
+                </div>
+                <nav class="header-menu">
+                    <div class="header-menu-icon">
+                        <span class="easing"></span>
+                        <span class="easing"></span>
+                    </div>
+                    <div class="header-menu-view">
+                        <ul>
+                            <li><a href="biblio.html" class="easing" data-type="page-load">Bibliografia</a></li>
+                            <li><a href="contact.html" class="easing" data-type="page-load">Contacto</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- MAIN -->
+        <main>
+
+            <!-- CAROUSEL -->
+            <div class="slider-container full">
+                <div class="swiper-container full-carousel" id="full-carousel">
+                    <div class="swiper-wrapper">
+
+                        <!-- SLIDE -->
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-image slide-inner">
+                                <img src="images/Parte1/INICIO.jpg">
+                            </div>
+                            <a href="Tema1.html" data-type="ajax-load">
+                            </a>
+                        </div>
+
+                        <!-- SLIDE -->
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-image slide-inner">
+                                <img src="images/Parte2/PORTADA.jpg">
+                            </div>
+                            <a href="Tema2.html" data-type="ajax-load">
+                                <div class="swiper-slide-content">
+                                    <p>Leer Más</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- SLIDE -->
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-image slide-inner">
+                                <img src="images/Parte3/PORTADA.jpg">
+                            </div>
+                            <a href="Tema3.html" data-type="ajax-load">
+                                <div class="swiper-slide-content">
+                                    <p data-swiper-parallax="-450">Leer Más</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- SLIDE -->
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-image slide-inner">
+                                <img src="images/Parte4/PORTADA.jpg">
+                            </div>
+                            <a href="Tema4.html" data-type="ajax-load">
+                                <div class="swiper-slide-content">
+                                    <p data-swiper-parallax="-450">Comitente</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- SLIDE -->
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-image slide-inner">
+                                <img src="images/Parte5/PORTADA.jpg">
+                            </div>
+                            <a href="Tema5.html" data-type="ajax-load">
+                                <div class="swiper-slide-content">
+                                    <p data-swiper-parallax="-450">Plan de accion</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- CAROUSEL FOOTER -->
+            <footer class="showcase">
+                <div class="footer">
+
+                    <!-- SWIPE FUNCTION -->
+                    <label class="swiper-number">
+                        <ul>
+                            <li><a href="all-projects.html" data-type="page-load" class="easing">Toda la Info.</a></li>
+                            <li><span></span></li>
+                            <li class="swiper-prev easing"><i class="fas fa-chevron-left"></i></li>
+                            <li class="swiper-next easing"><i class="fas fa-chevron-right"></i></li>
+                        </ul>
+                    </label>
+
+                    <!-- SOCIAL MEDIA 
+                    <div class="swiper-social">
+                        <ul>
+                            <li><a href="#" target="_blank" class="easing" data-type="direct-link">Fb</a></li>
+                            <li><a href="#" target="_blank" class="easing" data-type="direct-link">Tw</a></li>
+                            <li><a href="#" target="_blank" class="easing" data-type="direct-link">Be</a></li>
+                            <li><a href="#" target="_blank" class="easing" data-type="direct-link">Ins</a></li>
+                            <li><a href="#" target="_blank" class="easing" data-type="direct-link">Drb</a></li>
+                        </ul>
+                    </div>-->
+                </div>
+            </footer>
+        </main>
+        
+        <!-- CURSOR -->
+        <div id="magic-cursor">
+            <div id="ball"></div>
+        </div>
+        
+        <!-- JS -->
+        <script src="js/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD594SszGGcUjwUwcX3pocp2xBzANvYB6A&amp;sensor=false"></script>
+        <script src="js/libraries.js"></script>
+        <script src="js/main.js"></script>
+        
+        
+    </body>
+</html>
