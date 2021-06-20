@@ -310,7 +310,7 @@ button {color: #425f57;}
 .map-wrapper { height:100%; }
 
 .form-line input[type="text"],
-.form-line textarea { width:50%; background-color:transparent; border:0px; border-bottom:solid 2px #000000;  outline:none; color:#425f57; padding:10px 0px; resize:none; font-size:14px; }
+.form-line textarea { width:80%; background-color:transparent; border:0px; border-bottom:solid 2px #000000;  outline:none; color:#425f57; padding:10px 0px; resize:none; font-size:14px; }
 .form-line textarea { margin-top:80px; }
 
 .form-line input::placeholder,
