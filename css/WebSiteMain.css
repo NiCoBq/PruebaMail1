@@ -149,7 +149,7 @@ header::after { content: ''; clear: both; display: block; }
 .full-carousel .swiper-slide-background { height:100%; }
 
 .full-carousel .swiper-slide-content { position:absolute; top:95%; left:80%; transform: translateY(-50%); z-index:2; padding:0px 100px; overflow: hidden; }
-.full-carousel .swiper-slide-content p { position:relative; width:fit-content; font-size:30px; padding:0px 4px; margin:0px; margin-bottom:5px; color:#FFFFFF; opacity:.7; }
+.full-carousel .swiper-slide-content p {border: 1px solid black; position:relative; width:auto; font-size:20px; padding:0px 4px; margin:0px; margin-bottom:5px; color:#FFFFFF; opacity:.7; }
 .full-carousel .swiper-slide-content h1 { position:relative; width:fit-content; font-size:100px; font-weight:700; padding:0px; margin:0px; color:#FFFFFF; word-break: break-all; }
 
 .full-carousel .swiper-slide-content a { color:#000000; font-size:13px; font-weight: 500; }
