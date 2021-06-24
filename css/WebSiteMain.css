@@ -164,9 +164,9 @@ header::after { content: ''; clear: both; display: block; }
 .next-workO a { color:#e5e2e2;  }
 .next-workO p {position: absolute; top: 89%; left: 85%; margin-bottom:0px; font-size: 18px;}
 
-.next-workO-button { border:solid 2px #000; padding:15px 30px; font-size:15px; background-color: rgb(255, 255, 255); outline: none; color:#425f57; border-radius: 30px;  font-weight: 300; }
+.next-workO-button { border:solid 2px white; padding:15px 30px; font-size:15px; background-color: transparent; outline: none; color: white; border-radius: 30px;  font-weight: 300; }
 
-.next-workO-button:hover { background-color: #000; color:rgb(255, 255, 255); cursor:pointer; }
+.next-workO-button:hover { background-color: white; color: black; cursor:pointer; }
 
 
 .next-workO-button {position: absolute; top: 92%; right: 20px; font-size:15px; font-weight: 300; height:55px; }
