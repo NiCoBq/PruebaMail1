@@ -112,6 +112,7 @@ header::after { content: ''; clear: both; display: block; }
 .header-sticky { background-color:#000000; }
 
 .header-menu-view { position:relative; display:block; }
+.header-menu-view2 {background-color: black; position:relative; display:block; }
 
 .header-menu-view ul { list-style:none; padding:0px; margin:0px; }
 .header-menu-view ul li { display: inline-block; font-size:15px; font-weight: 200; padding:0px 20px; color:#ffffff; }
