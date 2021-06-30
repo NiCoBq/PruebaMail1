@@ -254,7 +254,7 @@ jQuery(function($) {
             var swiperOptions = {
                 mousewheel: true,
                 direction: 'horizontal',
-                loop: true,
+                loop: false,
                 speed: 1500,
                 grabCursor: false,
                 parallax:true,
