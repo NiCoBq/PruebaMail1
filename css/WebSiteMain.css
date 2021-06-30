@@ -204,6 +204,11 @@ footer.showcase { position:fixed; bottom:0px; width:50%; height:100px; z-index:3
 .swiper-number2 ul button {outline:none; font-size: 20px; height:50px; width: 50px; border-radius:100%; margin-left: 10px; margin-right: 10px; border:solid 1px #FFFFFF; background-color: transparent; padding: 10px; color: white;}
 .swiper-number2 ul button:hover {border:solid 2px #FFFFFF; background-color: #FFFFFF; cursor:pointer; color: black; opacity:.8;}
 
+/** 9.6 SWIPER NUMBER 3**/
+
+.swiper-number3 {position: absolute; top: -50%; left: 2%; }
+.swiper-number3 ul a {outline: none; font-size: 20px; height:50px; width: 50px; border-radius:100%; margin-left: 10px; margin-right: 10px; border:solid 1px #FFFFFF; background-color: transparent; padding: 10px; color: white;}
+.swiper-number3 ul a:hover {border:solid 1px #FFFFFF; background-color: #FFFFFF; cursor:pointer; color: black; opacity:.8;}
 
 
 /** 10.0 PAGE TOP IMAGE **/
