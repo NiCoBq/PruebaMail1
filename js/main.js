@@ -246,96 +246,6 @@ jQuery(function($) {
         }
         /**********************************/
 
-
-
-        /** COVER CAROUSEL */
-        /**********************************/
-        function coverCarousel() {
-            var swiper = new Swiper('.swiper-container', {
-                effect: 'coverflow',
-                slidesPerView: 3,
-                spaceBetween: 30,
-                mousewheel: true,
-                speed: 1000,
-                navigation: {
-                    nextEl: ".swiper-next",
-                    prevEl: ".swiper-prev"
-                },
-                breakpoints: {
-                    1600: {
-                        slidesPerView: 2,
-                        spaceBetween: 20,
-                    }, 
-                    768: {
-                      slidesPerView: 1,
-                      spaceBetween: 20,
-                    }
-                }
-            });
-        }
-        /**********************************/
-
-
-
-        /** SMALL CAROUSEL */
-        /**********************************/
-        function smallCarousel() {
-            var swiperOptions = {
-                slidesPerView: 3,
-                spaceBetween: 30,
-                mousewheel: true,
-                speed: 1000,
-                navigation: {
-                    nextEl: ".swiper-next",
-                    prevEl: ".swiper-prev"
-                },
-                breakpoints: {
-                    1600: {
-                        slidesPerView: 2,
-                        spaceBetween: 20,
-                    }, 
-                    768: {
-                      slidesPerView: 1,
-                      spaceBetween: 20,
-                    }
-                }
-            };
-
-            var swiper = new Swiper(".swiper-container", swiperOptions);
-
-        }
-        /**********************************/
-
-
-
-        /** HOVER CAROUSEL */
-        /**********************************/
-        function hoverCarousel() {
-            var swiper = new Swiper('.swiper-container', {
-                slidesPerView: 3,
-                spaceBetween: 30,
-                mousewheel: true,
-                speed: 1000,
-                navigation: {
-                    nextEl: ".swiper-next",
-                    prevEl: ".swiper-prev"
-                },
-                breakpoints: {
-                    1600: {
-                        slidesPerView: 2,
-                        spaceBetween: 20,
-                    }, 
-                    768: {
-                      slidesPerView: 1,
-                      spaceBetween: 20,
-                    }
-                }
-            });
-        }
-        /**********************************/
-        
-
-
         /** FULL CAROUSEL */
         /**********************************/
         function fullCarousel() {
@@ -355,33 +265,7 @@ jQuery(function($) {
                     nextEl: ".swiper-next",
                     prevEl: ".swiper-prev"
                 },
-                on: {
-                    progress: function() {
-                    var swiper = this;
-                    for (var i = 0; i < swiper.slides.length; i++) {
-                        var slideProgress = swiper.slides[i].progress;
-                        var innerOffset = swiper.width * interleaveOffset;
-                        var innerTranslate = slideProgress * innerOffset;
-                        swiper.slides[i].querySelector(".slide-inner").style.transform =
-                        "translate3d(" + innerTranslate + "px, 0, 0)";
-                    }      
-                    },
-                    touchStart: function() {
-                    var swiper = this;
-                    for (var i = 0; i < swiper.slides.length; i++) {
-                        swiper.slides[i].style.transition = "";
-                    }
-                    },
-                    setTransition: function(speed) {
-                    var swiper = this;
-                    for (var i = 0; i < swiper.slides.length; i++) {
-                        swiper.slides[i].style.transition = speed + "ms";
-                        swiper.slides[i].querySelector(".slide-inner").style.transition =
-                        speed + "ms";
-                    }
-                    }
-                }
-            };
+                
 
             var swiper = new Swiper(".swiper-container", swiperOptions);
         }
