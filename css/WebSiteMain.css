@@ -168,6 +168,10 @@ header::after { content: ''; clear: both; display: block; }
 .next-workO a { color:#e5e2e2;  }
 .next-workO p {position: absolute; top: 89%; left: 85%; margin-bottom:0px; font-size: 18px;}
 
+.next-workO-button { border:solid 2px white; padding:15px 30px; font-size:15px; background-color: transparent; outline: none; color:white; border-radius: 30px;  font-weight: 300; }
+.next-workO-button {position: absolute; top: 90%; right: 20px; font-size:15px; font-weight: 300; height:55px; }
+.next-workO-button:hover { background-color: white; color:black; cursor:pointer; }
+
 .next-workO form {position: absolute; top: 90%; right: 20px; font-size:15px; font-weight: 300; height:55px; }
 .next-workO input[type="submit"] {font-family: 'Open Sans', sans-serif !important; border:solid 2px white; padding:14px 30px; font-size:14px; background-color: transparent; outline: none; color:white; border-radius: 32px; font-weight: 800; }
 .next-workO input[type="submit"]:hover {font-family: 'Open Sans', sans-serif !important; background-color: white; color:black; cursor:pointer; }
