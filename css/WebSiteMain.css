@@ -169,7 +169,7 @@ header::after { content: ''; clear: both; display: block; }
 .next-workO-button:hover { background-color: white; color: black; cursor:pointer; }
 
 
-.next-workO-button {position: absolute; top: 86%; right: 20px; font-size:15px; font-weight: 300; height:55px; }
+.next-workO-button {position: absolute; top: 90%; right: 20px; font-size:15px; font-weight: 300; height:55px; }
 
 /** 9.0 CAROUSEL FOOTER **/
 footer.showcase { position:fixed; bottom:0px; width:50%; height:100px; z-index:3; padding:0px 100px; margin-bottom:0px; }
