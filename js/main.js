@@ -246,16 +246,16 @@ jQuery(function($) {
         }
         /**********************************/
 
-        /** FULL CAROUSEL */
+          /** FULL CAROUSEL */
         /**********************************/
         function fullCarousel() {
-            var interleaveOffset = 0.4;
+            var interleaveOffset = 0;
 
             var swiperOptions = {
                 mousewheel: true,
                 direction: 'horizontal',
-                loop: false,
-                speed: 1000,
+                loop: true,
+                speed: 1500,
                 grabCursor: false,
                 parallax:true,
                 mousewheelSensitivity: 0,
@@ -291,7 +291,7 @@ jQuery(function($) {
                     }
                     }
                 }
-                
+            };
 
             var swiper = new Swiper(".swiper-container", swiperOptions);
         }
