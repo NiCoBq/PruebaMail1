@@ -177,7 +177,7 @@ header::after { content: ''; clear: both; display: block; }
 .next-workO input[type="submit"]:hover {font-family: 'Open Sans', sans-serif !important; background-color: white; color:black; cursor:pointer; }
 
 /** 9.0 CAROUSEL FOOTER **/
-footer.showcase { position:fixed; bottom:0px; width:50%; height:100px; z-index:3; padding:0px 100px; margin-bottom:0px; }
+footer.showcase { position:fixed; bottom:0px; width:50%; height:100px; z-index:3; padding:0px 0px; margin-bottom:0px; }
 .showcase .footer { position:relative; height:100%; }
 
 .swiper-number { position:absolute; top:60%; left: 0px; transform: translateY(-50%);}
